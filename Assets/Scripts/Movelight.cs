@@ -15,6 +15,7 @@ public class MoveAtoB : MonoBehaviour
     public bool playOnStart = true;
 
     private Coroutine moveRoutine;
+    public bool repeat;
 
     void Start()
     {
@@ -58,6 +59,9 @@ public class MoveAtoB : MonoBehaviour
 
         transform.position = to;
         moveRoutine = null;
-        MoveToB();
+        if (repeat)
+        {
+            MoveToB();
+        }
     }
 }
