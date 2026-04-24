@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "unity": {
+      "type": "stdio",
+      "command": "C:\\Users\\temik\\.local\\bin\\uvx.exe",
+      "args": [
+        "--offline",
+        "--prerelease",
+        "explicit",
+        "--from",
+        "mcpforunityserver>=0.0.0a0",
+        "mcp-for-unity",
+        "--transport",
+        "http",
+        "--http-url",
+        "http://127.0.0.1:8080",
+        "--project-scoped-tools"
+      ]
+    }
+  }
+}
