@@ -3352,6 +3352,7 @@ GameObject:
   - component: {fileID: 3118912421045735128}
   - component: {fileID: 6259853878216040732}
   - component: {fileID: 6552038334694914026}
+  - component: {fileID: 720748142364222073}
   m_Layer: 0
   m_Name: npc_csl_00_character_02f_03
   m_TagString: Untagged
@@ -3466,6 +3467,29 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!136 &720748142364222073
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2306769892806513762}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.25
+  m_Height: 1.7
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.8, z: 0}
 --- !u!1 &2410776230468245719
 GameObject:
   m_ObjectHideFlags: 0
